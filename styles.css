@@ -77,6 +77,8 @@ form{
     justify-content: center;
     font-family: 'Inter', sans-serif;
     margin-bottom: 30px;
+    font-size: larger;
+    font-weight: bolder;
 }
 
 .first-sentence{
@@ -86,6 +88,7 @@ form{
 .middle-part{
     background: white;
     margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .middle-part-info{
@@ -94,4 +97,30 @@ form{
     font-family: 'Inter', sans-serif;
 }
 
+.middle-part-info > p{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.lower-part{
+    margin-left: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.create{
+    background: #596D48;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a{
+   text-decoration: none;
+   color: #596D48;
+   font-weight: bolder;
+}
 
